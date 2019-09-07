@@ -12,4 +12,7 @@ public class PiggyBank {
         amount-=money;
     }
 
+    PiggyBank() {
+        System.out.println("Acces denied");
+    }
 }

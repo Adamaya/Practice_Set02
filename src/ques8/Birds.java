@@ -15,4 +15,8 @@ public class Birds extends Animal {
         System.out.println("birds do not sleep");
     }
 
+    public static void main(String[] args) {
+
+
+    }
 }

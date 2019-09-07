@@ -25,6 +25,8 @@ public class Rectangle {
         this.breadth = breadth;
     }
 
-
+    public void calculateArea() {
+        System.out.println(this.length*this.breadth);
+    }
 
 }

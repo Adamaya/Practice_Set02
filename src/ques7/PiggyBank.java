@@ -8,6 +8,7 @@ public class PiggyBank {
 
     PiggyBank(double money) {
         addMoney(money);
+        getAmount();
     }
 
     protected final void takeMoney(double money){

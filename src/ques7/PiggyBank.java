@@ -5,15 +5,20 @@ public class PiggyBank {
     public double getAmount(){
         return amount;
     }
-    protected final void takeMoney(double money){
-        amount+=money;
+
+    PiggyBank(double money) {
+        addMoney(money);
     }
-    protected final void addMoney(double money){
-        amount-=money;
+
+    protected final void takeMoney(double money){
+        amount -= money;
     }
 
     PiggyBank() {
         System.out.println("Access denied");
     }
 
+    protected final void addMoney(double money) {
+        amount += money;
+    }
 }

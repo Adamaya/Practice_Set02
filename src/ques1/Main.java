@@ -5,6 +5,9 @@ public class Main {
         Student student=new Student();
         student.setName("Aman");
         student.setRoll_no(101);
+        System.out.println(student.getName());
+        System.out.println(student.getRoll_no());
+
 
     }
 }

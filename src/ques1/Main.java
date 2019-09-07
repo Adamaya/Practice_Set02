@@ -13,7 +13,7 @@ public class Main {
         Rectangle rec=new Rectangle(4.0,5.0);
         rec.calculateArea();
         Employee employee=new Employee("Adamaya");
-        employee.getInfo(12345,5.0);
+        System.out.println(employee.getInfo(12345,5.0));
 
 
     }

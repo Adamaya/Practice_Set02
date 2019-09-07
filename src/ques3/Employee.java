@@ -32,5 +32,9 @@ public class Employee {
     public Employee(String name){
         setName(name);
     }
-
+    public String getInfo(double salary, double numberOfHourWorked) {
+        setSalary(salary);
+        setNumberOfHourWorked(numberOfHourWorked);
+        return "Salary of "+getName()+" is " + getSalary() + " for " + getNumberOfHourWorked() + " Hours";
+    }
 }

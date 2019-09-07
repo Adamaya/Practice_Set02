@@ -1,6 +1,7 @@
 package ques1;
 
 import ques2.Rectangle;
+import ques3.Employee;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,6 +12,8 @@ public class Main {
         System.out.println(student.getRoll_no());
         Rectangle rec=new Rectangle(4.0,5.0);
         rec.calculateArea();
+        Employee employee=new Employee("Adamaya");
+        employee.getInfo(12345,5.0);
 
 
     }

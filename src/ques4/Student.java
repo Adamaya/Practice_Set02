@@ -1,8 +1,8 @@
 package ques4;
 
 public class Student {
-    private String name;
-    private double marks;
+    private String name="Unknown";
+    private double marks=0.0;
 
     public String getName() {
         return name;

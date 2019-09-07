@@ -16,7 +16,7 @@ public class Birds extends Animal {
     }
 
     public static void main(String[] args) {
-
+        Birds birds = new Birds();
 
     }
 }

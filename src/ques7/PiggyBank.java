@@ -8,7 +8,7 @@ public class PiggyBank {
 
     PiggyBank(double money) {
         addMoney(money);
-        getAmount();
+        System.out.println(getAmount());
     }
 
     protected final void takeMoney(double money){

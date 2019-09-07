@@ -37,4 +37,7 @@ public class Employee {
         setNumberOfHourWorked(numberOfHourWorked);
         return "Salary of "+getName()+" is " + getSalary() + " for " + getNumberOfHourWorked() + " Hours";
     }
+    private void addBonus(double salary){
+        setSalary(salary+1000);
+    }
 }

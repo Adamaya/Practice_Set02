@@ -13,6 +13,7 @@ public class PiggyBank {
     }
 
     PiggyBank() {
-        System.out.println("Acces denied");
+        System.out.println("Access denied");
     }
+
 }

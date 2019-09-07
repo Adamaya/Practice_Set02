@@ -7,6 +7,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         String pname=input.nextLine();
+        Programming prog1=new Programming();
+        Programming prog2=new Programming(pname);
 
     }
 }
